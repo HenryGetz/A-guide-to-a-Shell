@@ -22,7 +22,7 @@ There is also no `setjmp()/longjmp()`, no `fork()`, and no threads (and no ways 
 
 WASI supports threads experimentally via web workers. For web-based projects, web workers are enabled only when the server has set certain flags. For local side, we don't know how to enable it. Apple has disabled it for security reasons.
 
-The ecosystem of WebAssembly is still embarrassed. As a new-born technology, it has been developed for years but its usage outside of the web browser is still greatly limited.
+The ecosystem of WebAssembly is still embarrassing. Despite years of development, this emerging technology is still largely confined to web browsers, with limited applications elsewhere.3
 
 ### Cross compile WebAssembly projects with your computer
 
